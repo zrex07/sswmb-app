@@ -1,0 +1,166 @@
+
+
+[
+  {
+    "id": "t1",
+    "category": "Manual Sweeping",
+    "title": "Manual Sweeping",
+    "zone_name": "G UC 1",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t2",
+    "category": "Door To Door Collection",
+    "title": "Door To Door Collection",
+    "zone_name": "G UC 2",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t3",
+    "category": "Garbage Collection",
+    "title": "Garbage Collection",
+    "zone_name": "G UC 3",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t4",
+    "category": "Mechanical Sweeping",
+    "title": "Mechanical Sweeping",
+    "zone_name": "G UC 4",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t5",
+    "category": "Water Sprinkling",
+    "title": "Water Sprinkling",
+    "zone_name": "G UC 5",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t6",
+    "category": "Emergency Task",
+    "title": "Emergency Task",
+    "zone_name": "G UC 6",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t7",
+    "category": "Manual Sweeping",
+    "title": "Manual Sweeping",
+    "zone_name": "L UC 1",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t8",
+    "category": "Door To Door Collection",
+    "title": "Door To Door Collection",
+    "zone_name": "L UC 2",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t9",
+    "category": "Garbage Collection",
+    "title": "Garbage Collection",
+    "zone_name": "L UC 3",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t10",
+    "category": "Mechanical Sweeping",
+    "title": "Mechanical Sweeping",
+    "zone_name": "L UC 4",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t11",
+    "category": "Water Sprinkling",
+    "title": "Water Sprinkling",
+    "zone_name": "L UC 5",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t12",
+    "category": "Emergency Task",
+    "title": "Emergency Task",
+    "zone_name": "L UC 6",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t13",
+    "category": "Manual Sweeping",
+    "title": "Manual Sweeping",
+    "zone_name": "S UC 1",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t14",
+    "category": "Door To Door Collection",
+    "title": "Door To Door Collection",
+    "zone_name": "S UC 2",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t15",
+    "category": "Garbage Collection",
+    "title": "Garbage Collection",
+    "zone_name": "S UC 3",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t16",
+    "category": "Mechanical Sweeping",
+    "title": "Mechanical Sweeping",
+    "zone_name": "S UC 4",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t17",
+    "category": "Water Sprinkling",
+    "title": "Water Sprinkling",
+    "zone_name": "S UC 5",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  },
+  {
+    "id": "t18",
+    "category": "Emergency Task",
+    "title": "Emergency Task",
+    "zone_name": "S UC 6",
+    "image_url": "../assets/images/test.jpg",
+    "complete": false,
+    "created_at": "17-10-2025"
+  }
+]
