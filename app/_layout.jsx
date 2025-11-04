@@ -2,7 +2,7 @@ import * as NavigationBar from "expo-navigation-bar";
 import { Stack, usePathname, useRouter } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
-import { ActivityIndicator, Alert, BackHandler, Platform, View } from "react-native";
+import { ActivityIndicator, BackHandler, Platform, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { AuthProvider, useAuth } from "../context/AuthContext";
 import { TaskProvider } from "../context/TaskContext";
@@ -17,45 +17,22 @@ function useBackButtonHandler() {
   const router = useRouter();
 
   useEffect(() => {
-    const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
-      // Main screens where we should show exit confirmation
-      const mainScreens = [
-        '/(drawer)/dashboard',
-        '/(drawer)/changepassword'
-      ];
+    // Android only
+    if (Platform.OS !== "android") return;
 
-      // Check if current screen is a main screen
-      if (mainScreens.includes(pathname)) {
-        Alert.alert(
-          'Exit App',
-          'Are you sure you want to exit?',
-          [
-            { 
-              text: 'Cancel', 
-              onPress: () => null,
-              style: 'cancel' 
-            },
-            { 
-              text: 'Exit', 
-              onPress: () => BackHandler.exitApp() 
-            },
-          ],
-          { cancelable: false }
-        );
-        return true; // Prevent default back navigation
-      }
-      
-      // For other screens, allow normal back navigation
-      // but prevent going back to login/signup screens
+    const onBackPress = () => {
+      // If we're on these screens, navigate back via router and consume the event
       if (pathname === '/categories-tasks' || pathname === '/taskDetails') {
         router.back();
-        return true;
+        return true; // prevent default behavior
       }
-      
-      return false;
-    });
 
-    return () => backHandler.remove();
+      // Allow default back behavior for other screens
+      return false;
+    };
+
+    const subscription = BackHandler.addEventListener('hardwareBackPress', onBackPress);
+    return () => subscription.remove();
   }, [pathname, router]);
 }
 
