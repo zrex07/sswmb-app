@@ -1,4 +1,3 @@
-// app/pictorial-evidence.jsx
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Alert, Text, TouchableOpacity, View } from 'react-native';

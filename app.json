@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SSWMB",
+    "name": "Monitoring Mobile App",
     "slug": "sswmb-slug",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dua080.sswmbslug"
+      "bundleIdentifier": "com.dua080.sswmbslug",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
